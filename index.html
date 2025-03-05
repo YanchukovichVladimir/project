@@ -6,73 +6,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
   </head>
   <body>
-    <header>
-      <a href="">
-        <img src="./image/Logo.svg" alt="">
+    <header class="header">
+      <a href="" class="logo">
+        <img class="logo-img" src="./image/Logo.svg" alt="">
       </a>
-      <ul>
-        <li>
-          <a href="">Main</a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="" class="menu-link">Main</a>
         </li>
-        <li>
-          <a href="">Rates</a></li>
-        <li>
-          <a href="">Create Account</a>
+        <li class="menu-item">
+          <a href="" class="menu-link">Rates</a></li>
+        <li class="menu-item">
+          <a href="" class="menu-link">Create Account</a>
         </li>
       </ul>
     </header>
-    <section>
-      <h1>Markup achievement</h1>
-      <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
-      <button>Learn More</button>
-      <img src="./image/image.png" alt="">
+    <section class="main">
+      <h1 class="main-title">Markup achievement</h1>
+      <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+      <button class="btn">Learn More</button>
+      <img class="main-img" src="./image/image.png" alt="">
     </section>
-    <section>
-      <h2>Rates</h2>
-      <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
-      <table>
+    <section class="rates-section">
+      <h2 class="title">Rates</h2>
+      <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+      <table class="table">
         <tr>
-          <th>Features</th>
-          <th>Standart</th>
-          <th>Plus</th>
-          <th>PRO</th>
+          <th class="subtitle-table gray">Features</th>
+          <th class="title-table">Standart</th>
+          <th class="title-table">Plus</th>
+          <th class="title-table">PRO</th>
         </tr>
         <tr>
-          <th>Theory</th>
+          <th class="subtitle-table">Theory</th>
           <td><img src="./image/td.png" alt=""></td>
           <td><img src="./image/td.png" alt=""></td>
           <td><img src="./image/td.png" alt=""></td>
         </tr>
         <tr>
-          <th>Practice</th>
+          <th class="subtitle-table">Practice</th>
           <td><img src="./image/td1.png" alt=""></td>
           <td><img src="./image/td.png" alt=""></td>
           <td><img src="./image/td.png" alt=""></td>
         </tr>
         <tr>
-          <th>Code review</th>
+          <th class="subtitle-table">Code review</th>
           <td><img src="./image/td1.png" alt=""></td>
           <td><img src="./image/td1.png" alt=""></td>
           <td><img src="./image/td.png" alt=""></td>
         </tr>
-        <tr>
-          <th><a href="">Have questions?</a></th>
-          <td><button>get now</button></td>
-          <td><button>get now</button></td>
-          <td><button>get now</button></td>
+        <tr class="table-footer">
+          <th class="subtitle-table"><a class="link-table" href="">Have questions?</a></th>
+          <td><button class="btn-table">get now</button class="btn-table"></td>
+          <td><button class="btn-table active">get now</button></td>
+          <td><button class="btn-table">get now</button></td>
         </tr>
       </table>
     </section>
-    <section>
-      <h2>Create your account</h2>
-      <p>Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
-      <ul>
-        <li>Easy setup start</li>
-        <li>Free forever for core features</li>
-        <li>14 day trail of premium features</li>
+    <section class="create-section">
+      <h2 class="title">Create your account</h2>
+      <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
+      <ul class="list">
+        <li class="list-item">Easy setup start</li>
+        <li class="list-item">Free forever for core features</li>
+        <li list class="list-item">14 day trail of premium features</li>
       </ul>
       <form action="">
         <input type="text" placeholder="Full Name*">
@@ -85,14 +86,16 @@
           <option>China</option>
           <option>USA</option>
         </select>
-        <label for="">
-          <input type="radio" name="stack" checked>
-          Frontend
-        </label>
-        <label for="">
-          <input type="radio" name="stack">
-          Backend
-        </label>
+        <div>
+          <label for="">
+            <input type="radio" name="stack" checked>
+            Frontend
+          </label>
+          <label for="">
+            <input type="radio" name="stack">
+            Backend
+          </label>
+        </div>  
         <fieldset>
           <legend>Favorite Technologies</legend>
           <label for="">

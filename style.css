@@ -1,0 +1,228 @@
+* {
+  padding: 0xp;
+  margin: 0xp;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.header {
+  background: rgb(10, 97, 247);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.66667;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 68px;
+  color: rgb(54, 57, 64);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.375;
+  color: rgb(149, 161, 187)
+  font-family "Rubik", sans-serif;
+}
+
+.btn {
+  width: 152px;
+  height: 50px;
+  border-radius: 4px;
+  background: #0a61f7;
+  font-weight: 500;
+ font-size: 14px;
+ line-height: 1.4;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ text-align: center;
+ color: #fff;
+ font-family: "Rubik", sans-serif;
+}
+
+.title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.34375;
+  color: #363940;
+}
+
+.rates-section {
+  background-color: #F9FAFC;
+  padding: 100px 0;
+}
+
+.rates-section .title {
+  margin-bottom: 20px;
+}
+
+.rates-section .text {
+  margin-bottom: 40px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #95A1BB;
+  width: 240px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.subtitle-table {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57143;
+  color: #363940;
+}
+
+.title-table {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22222;
+  text-align: center;
+  color: #363940;
+  font-family: "Rubik", sans-serif;
+}
+
+.link-table {
+  color: #0a61f7;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-table {
+  border: 1px solid #0a61f7;
+  border-radius: 4px;
+  width: 140px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.63333;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0a61f7;
+  font-family: "Rubik", sans-serif;
+}
+
+.subtitle-table.gray {
+  color: #95a1bb;
+}
+
+.btn-table.active {
+  background: #0a61f7;
+  color: #fff;
+}
+
+.table-footer td {
+  padding: 30px 0;
+}
+
+.create-section {
+  padding: 100px 0;
+}
+
+.create-section .title {
+  margin-bottom: 50px;
+}
+
+.create-section .text {
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.list-item {
+  list-style-image: url("./image/Mask.png");
+  margin-bottom: 15px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.375;
+  color: #363940;
+  font-family: "Rubik", sans-serif;
+}
+
+input, select, fieldset, textarea {
+  border: 1px solid #95a1bb;
+  border-radius: 4px;
+  padding: 14px 15px;
+}
+
+input, select, fieldset, textarea, label, legend, input::placeholder, textarea::placeholder,select::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #95a1bb;
+  font-family: "Rubik", sans-serif;
+  font-family: inherit;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+input[type="email"], input[type="password"], input[type=""data],select {
+  width: 230px;
+  height: 50px;
+}
+
+fieldset {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+select {
+  background: url(./image/Arrow-down.svg) no-repeat right 15px top 50%;
+  appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url(./image/Calendar.svg) no-repeat;
+}
+
+footer {
+  background: #0a61f7;
+  width: 1400px;
+  height: 62px;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color:#FFF;
+}
