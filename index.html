@@ -1,126 +1,169 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Awesome markup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="style.css">
-    <title>Project</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <a href="" class="logo">
-        <img class="logo-img" src="./image/Logo.svg" alt="">
-      </a>
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="" class="menu-link">Main</a>
-        </li>
-        <li class="menu-item">
-          <a href="" class="menu-link">Rates</a></li>
-        <li class="menu-item">
-          <a href="" class="menu-link">Create Account</a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="header-wrapper">
+          <a href="" class="logo">
+              <img class="logo-img" src="./image/logo.svg" alt="image">
+          </a>
+          <ul class="menu">
+              <li class="menu-item">
+                  <a href="" class="menu-link">Main</a>
+              </li>
+              <li class="menu-item">
+                  <a href="" class="menu-link">Rates</a>
+              </li>
+              <li class="menu-item">
+                  <a href="" class="menu-link">Create Account</a>
+              </li>
+          </ul>
+        </div>
+      </div>  
     </header>
+
     <section class="main">
-      <h1 class="main-title">Markup achievement</h1>
-      <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
-      <button class="btn">Learn More</button>
-      <img class="main-img" src="./image/image.png" alt="">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="main-info">
+            <h1 class="main-title">Markup achievement</h1>
+            <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+            <button class="button">Learn More</button>
+          </div>
+          <img class="main-img" src="/image/image.png" alt="image">
+        </div>
+      </div>  
     </section>
+
     <section class="rates-section">
-      <h2 class="title">Rates</h2>
-      <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
-      <table class="table">
-        <tr>
-          <th class="subtitle-table gray">Features</th>
-          <th class="title-table">Standart</th>
-          <th class="title-table">Plus</th>
-          <th class="title-table">PRO</th>
-        </tr>
-        <tr>
-          <th class="subtitle-table">Theory</th>
-          <td><img src="./image/td.png" alt=""></td>
-          <td><img src="./image/td.png" alt=""></td>
-          <td><img src="./image/td.png" alt=""></td>
-        </tr>
-        <tr>
-          <th class="subtitle-table">Practice</th>
-          <td><img src="./image/td1.png" alt=""></td>
-          <td><img src="./image/td.png" alt=""></td>
-          <td><img src="./image/td.png" alt=""></td>
-        </tr>
-        <tr>
-          <th class="subtitle-table">Code review</th>
-          <td><img src="./image/td1.png" alt=""></td>
-          <td><img src="./image/td1.png" alt=""></td>
-          <td><img src="./image/td.png" alt=""></td>
-        </tr>
-        <tr class="table-footer">
-          <th class="subtitle-table"><a class="link-table" href="">Have questions?</a></th>
-          <td><button class="btn-table">get now</button class="btn-table"></td>
-          <td><button class="btn-table active">get now</button></td>
-          <td><button class="btn-table">get now</button></td>
-        </tr>
-      </table>
-    </section>
-    <section class="create-section">
-      <h2 class="title">Create your account</h2>
-      <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
-      <ul class="list">
-        <li class="list-item">Easy setup start</li>
-        <li class="list-item">Free forever for core features</li>
-        <li list class="list-item">14 day trail of premium features</li>
-      </ul>
-      <form action="">
-        <input type="text" placeholder="Full Name*">
-        <input type="email" placeholder="Email*">
-        <input type="password" placeholder="password*">
-        <input type="date">
-        <select>
-          <option selected disabled>Country</option>
-          <option>Belarus</option>
-          <option>China</option>
-          <option>USA</option>
-        </select>
-        <div>
-          <label for="">
-            <input type="radio" name="stack" checked>
-            Frontend
-          </label>
-          <label for="">
-            <input type="radio" name="stack">
-            Backend
-          </label>
+      <div class="container">
+        <div class="rates-wrapper">
+          <h2 class="title">Rates</h2>
+          <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+          <table class="table">
+              <tr>
+                  <th class="table-subtitle gray">Features</th>
+                  <th class="table-title">Standart</th>
+                  <th class="table-title">Plus</th>
+                  <th class="table-title">PRO</th>
+              </tr>
+              <tr>
+                  <th class="table-subtitle">Theory</th>
+                  <td><img src="./image/Check.svg" alt=""></td>
+                  <td><img src="./image/Check.svg" alt=""></td>
+                  <td><img src="./image/Check.svg" alt=""></td>
+              </tr>
+              <tr>
+                  <th class="table-subtitle">Practice</th>
+                  <td><img src="./image/Close.svg" alt=""></td>
+                  <td><img src="./image/Check.svg" alt=""></td>
+                  <td><img src="./image/Check.svg" alt=""></td>
+              </tr>
+              <tr>
+                  <th class="table-subtitle">Code review</th>
+                  <td><img src="./image/Close.svg" alt=""></td>
+                  <td><img src="./image/Close.svg" alt=""></td>
+                  <td><img src="./image/Check.svg" alt=""></td>
+              </tr>
+              <tr class="table-footer">
+                  <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+                  <td><button class="table-button">get now</button></td>
+                  <td><button class="table-button active">get now</button></td>
+                  <td><button class="table-button">get now</button></t>
+              </tr>
+          </table>
         </div>  
-        <fieldset>
-          <legend>Favorite Technologies</legend>
-          <label for="">
-            <input type="checkbox" name="html" checked>
-            HTML
-          </label>
-          <label for="">
-            <input type="checkbox" name="css" checked>
-            CSS
-          </label>
-          <label for="">
-            <input type="checkbox" name="react">
-            React
-          </label>
-          <label for="">
-            <input type="checkbox" name="sc">
-            styled components
-          </label>
-        </fieldset>
-        <textarea placeholder="something else about you..."></textarea>
-        <input type="submit">
-      </form>
+      </div>  
     </section>
-    <footer>
-      <span>Copyright © 2023. All rights reserved.</span>
+
+    <section class="create-account-section">
+      <div class="container">
+        <div class="account-wrapper">
+          <div class="account-info-wrapper">
+            <h2 class="title">Create your free account</h2>
+            <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be,regardless of the fact that in real life.</p>
+            <ul class="list">
+                <li class="list-item">Easy setup, fast start</li>
+                <li class="list-item">Free forever for core features</li>
+                <li class="list-item">14-day trial of premium features</li>
+            </ul>
+          </div>
+
+
+          <form>
+              <input type="text" placeholder="Full Name*">
+              <div class="fields-wrapper">
+                <input type="email" placeholder="Email*">
+                <input type="password" placeholder="Password*">
+                <input type="date">
+
+                <select>
+                    <option selected disabled>Country</option>
+                    <option>Belarus</option>
+                    <option>China</option>
+                    <option>USA</option>
+                </select>
+              </div>
+              
+
+              <div class="stack">
+                  <label for="front">
+                      <input id="front" type="radio" name="stack" checked>
+                      Frontend
+                  </label>
+    
+                  <label for="back">
+                      <input id="back" type="radio" name="stack">
+                      Backend
+                  </label>
+              </div>
+
+              <fieldset>
+                  <legend>Favorite Technologies</legend>
+                  <label for="html">
+                      <input id="html" type="checkbox" name="html" checked>
+                      HTML
+                  </label>
+  
+                  <label for="css">
+                      <input id="css" type="checkbox" name="css" checked>
+                      CSS
+                  </label>
+
+                  <label for="react">
+                      <input id="react" type="checkbox" name="react">
+                      React
+                  </label>
+
+                  <label for="sc">
+                      <input id="sc" type="checkbox" name="sc">
+                      Styled components
+                  </label>
+              </fieldset>
+
+              <textarea placeholder="Something else about you..."></textarea>
+
+              <button class="button" type="submit">registration</button>
+          </form>
+        </div>
+      </div>  
+    </section>
+    
+    <footer class="footer">
+        <small>Copyright © 2023. All rights reserved.</small>
     </footer>
-  </body>
-  </html>
+</body>
+</html>
